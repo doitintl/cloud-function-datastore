@@ -19,7 +19,7 @@ Functions for your project.
 
 1. Deploy the "get" function with an HTTP trigger:
 
-        gcloud functions deploy datastoreQuery --trigger-http
+        gcloud functions deploy datastoreQuery --runtime nodejs8 --trigger-http
 
 1. Get the function url 
 
